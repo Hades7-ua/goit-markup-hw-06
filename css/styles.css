@@ -784,6 +784,7 @@ img {
 .input-modal:hover + .input-icon,
 .input-modal:focus + .input-icon {
   fill: var(--accent-color);
+  transition: fill var(--time-function) var(--timing-function);
 }
 
 .textarea {
