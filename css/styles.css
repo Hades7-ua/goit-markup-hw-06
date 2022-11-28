@@ -772,6 +772,7 @@ img {
 }
 
 .form-label {
+  display: block;
   margin-bottom: 10px;
   font-weight: 400;
   font-size: 12px;
@@ -802,6 +803,7 @@ img {
   position: absolute;
   top: 29px;
   left: 12px;
+  pointer-events: none;
 }
 
 .input-modal:hover + .input-icon,
@@ -856,6 +858,11 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
   margin-left: 10px;
+}
+
+.input-name {
+  display: block;
+  margin-bottom: 4px;
 }
 
 .checkbox-icon {
